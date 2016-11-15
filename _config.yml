@@ -23,31 +23,31 @@ author:
 sections:
   - id: 'about-me'
     i18n: 'nav.about_me'
-    name: 'About'
+    name: '关于Hanabi'
     tpl: 'about.html'
     css: ''
 
   - id: 'career'
     i18n: 'nav.career'
-    name: 'Career'
+    name: 'Hanabi的事业'
     tpl: 'career.html'
     css: 'timeline'
 
   - id: 'skills'
     i18n: 'nav.skills'
-    name: 'Skills'
+    name: 'Hanabi的技能'
     tpl: 'skills.html'
     css: 'team'
 
   - id: 'projects'
     i18n: 'nav.projects'
-    name: 'Projects'
+    name: 'Hanabi的理想'
     tpl: 'projects.html'
     css: 'project'
 
   - id: 'blog'
     i18n: 'nav.blog'
-    name: 'Blog'
+    name: '展示'
     tpl: 'blog.html'
     css: 'testimonials navy-section'
 
