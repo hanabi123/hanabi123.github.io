@@ -1,107 +1,43 @@
-# Welcome to Jekyll!
 
-# Website settings
-title: "Hanabi Home"
-description: "Hanabi的官网"
-keywords: "Hanabi"
-baseurl: "/"
-url: "http://www.hanabi.com.cn"
-# url: "http://127.0.0.1:4000"
+title: Karna
+desctiption: Karna is a responsive jekyll theme which includes pinterest like pins.
+url: http://webjeda.com/
+permalink: ':title/'
 
-# author
-author:
-  name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
-  email: 'me@jack003.com'
-  facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
-  head_img: 'static/img/landing/Jack.jpg'
-  desc: 'I am a Full Stack engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel.'
-
-# sections
-sections:
-  - id: 'about-me'
-    i18n: 'nav.about_me'
-    name: '关于Hanabi'
-    tpl: 'about.html'
-    css: ''
-
-  - id: 'career'
-    i18n: 'nav.career'
-    name: 'Hanabi的事业'
-    tpl: 'career.html'
-    css: 'timeline'
-
-  - id: 'skills'
-    i18n: 'nav.skills'
-    name: 'Hanabi的技能'
-    tpl: 'skills.html'
-    css: 'team'
-
-  - id: 'projects'
-    i18n: 'nav.projects'
-    name: 'Hanabi的理想'
-    tpl: 'projects.html'
-    css: 'project'
-
-  - id: 'blog'
-    i18n: 'nav.blog'
-    name: '展示'
-    tpl: 'blog.html'
-    css: 'testimonials navy-section'
-
-  - id: 'links'
-    i18n: 'nav.link'
-    name: 'Links'
-    tpl: 'links.html'
-    css: 'contact'
-
-# localization
-languages:
-  - locale: 'en'
-    flag: 'static/img/flags/United-States.png'
-  - locale: 'zh'
-    flag: 'static/img/flags/China.png'
-
-# blog img path
-img_path: 'http://www.jack003.com/static/img/blog'
-
-# donate
-donate:
-  wechat: 'static/img/pay/wechat.png'
-  alipay: 'static/img/pay/alipay.png'
-
-# comment
-changyan:
-  # appid: cysfY7ULn
-  # conf: prod_861928934cecb7a18e15bedaed9dae29
-disqus:
-  name: jalpc
-  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
-
-# share
-bshare:
-  uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
-
-# baidu analytics
-ba:
-  # uuid: 317acca9ef9255b934e46371e471431d
-
-# google analytics
-ga:
-  id: UA-73784599-1
-
-# growingIO
-gio:
-  id: a49d4901c7853da9
-
-# Build settings
-encoding: "utf-8"
-
-# other settings
-highlighter: rouge
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+baseurl: "/karna"
+
+
+sass:
+    style: compressed
+
+  
+#optimization
+#compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+highlight: rouge
+
+
+# Tracker
+analytics: UA-83979019-1
+
+# Comments
+disqus-shortname: webjeda-demo
+
+# Contact form
+# Go to https://getsimpleform.com and get a API token by signing up with your email and enter that here
+api-token:   
+
+include: [_pages]
+version: 0.8
+
+gems: [jekyll-paginate, jekyll-seo-tag]
