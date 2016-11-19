@@ -1,0 +1,19 @@
+# Site settings
+title: Hanabi
+header-img: img/home-bg.jpg
+email: hanabi123@163.com
+description: "Developer Ma Blog"
+baseurl: ""
+# url: "http://wwww.blackaile.com"
+github_username:  Hanabi123
+# zhihu_username:  zhou-geek
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 30
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+
+
